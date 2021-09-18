@@ -26,5 +26,5 @@ INSTRUCTIONS:
 ```
 
 2. Upload ASPX webshell on target
-3. Modify URL to specify target server in choppa.py 
+3. Modify URL to specify target server and webshell name in choppa.py 
 4. Execute choppa.py with chosen mode number `python3 choppa.py -p Nonqjbexznaoynzrfuvfgbbyf -m 1`
