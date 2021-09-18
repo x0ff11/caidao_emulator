@@ -1,7 +1,6 @@
+
 # choppa.py
--------------------------------------------------------
-                    choppa.py - x0f
--------------------------------------------------------
+
 choppa.py is a python implementation of caidao.exe, which includes minimal implementations
 of caidao.exe's features exclusively for ASPX Jscript variants of China Chopper webshells such as:
 
