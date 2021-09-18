@@ -9,8 +9,8 @@ of caidao.exe's features exclusively for ASPX Jscript variants of China Chopper 
 ```
 
 Emulated caidao.exe features include:
-- inline Jscript execution
-- Virtual terminal emulation with Jscript and cmd.exe /c
+- Mode 1: Virtual terminal emulation with Jscript and `cmd.exe /c`
+- Mode 2: Jscript execution
 
 choppa.py is not fully featured, and does not include file upload/download or support
 for other webshell types referenced in caidao.exe such as ASP and PHP. These features are subject 
@@ -26,4 +26,4 @@ INSTRUCTIONS:
 ```
 
 2. Upload ASPX webshell on target
-3. python choppa.py -p Nonqjbexznaoynzrfuvfgbbyf -m MODE
+3. Execute choppa.py with chosen mode number `python3 choppa.py -p Nonqjbexznaoynzrfuvfgbbyf -m 1`
